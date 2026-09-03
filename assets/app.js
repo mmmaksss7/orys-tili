@@ -76,6 +76,7 @@
     var totalLessons = courses.reduce(function (sum, c) { return sum + lessonCount(c); }, 0);
     var totalDone = courses.reduce(function (sum, c) { return sum + doneCount(c); }, 0);
 
+    app.className = "app mode-portal";
     app.innerHTML =
       '<header class="top">' +
         '<a class="brand" href="./index.html">' +
@@ -83,7 +84,7 @@
           '<div><h1>Орыс тілі</h1><p>Электронный учебник · 2–11 классы</p></div>' +
         '</a>' +
         '<div class="top-actions">' +
-          '<input class="search" id="gradeSearch" type="search" placeholder="Найти модуль или класс">' +
+          '<input class="search" id="gradeSearch" type="search" placeholder="Найти модуль или класс" enterkeyhint="search">' +
         '</div>' +
       '</header>' +
       '<div class="portal">' +
@@ -141,22 +142,30 @@
     var activeBtn = null;
     var currentIndex = -1;
 
+    app.className = "app mode-viewer";
     app.innerHTML =
       '<header class="top">' +
-        '<button class="btn menu-btn" id="menuBtn" type="button">Меню</button>' +
-        '<a class="brand" href="./index.html">' +
+        '<button class="btn menu-btn" id="menuBtn" type="button">Уроки</button>' +
+        '<a class="brand" href="./index.html?grade=' + course.grade + '">' +
           '<div class="mark">' + course.grade + '</div>' +
           '<div><h1>' + course.title + '</h1><p>' + course.kk + ' · ' + course.modules.length + ' модулей</p></div>' +
         '</a>' +
         '<div class="top-actions">' +
-          '<input class="search" id="lessonSearch" type="search" placeholder="Поиск по урокам">' +
-          '<button class="btn" id="prevBtn" type="button">←</button>' +
-          '<button class="btn" id="nextBtn" type="button">→</button>' +
-          '<a class="btn btn-solid" href="./index.html">К классам</a>' +
+          '<input class="search search-desktop" id="lessonSearchDesktop" type="search" placeholder="Поиск по урокам">' +
+          '<button class="btn nav-desktop" id="prevBtnDesktop" type="button">←</button>' +
+          '<button class="btn nav-desktop" id="nextBtnDesktop" type="button">→</button>' +
+          '<a class="btn btn-solid" href="./index.html">Классы</a>' +
         '</div>' +
       '</header>' +
+      '<div class="menu-backdrop" id="backdrop"></div>' +
       '<div class="viewer">' +
-        '<aside id="menu"></aside>' +
+        '<aside id="menu">' +
+          '<div class="drawer-head">' +
+            '<input class="search drawer-search" id="lessonSearch" type="search" placeholder="Поиск по урокам" enterkeyhint="search">' +
+            '<button class="btn-close" id="closeMenu" type="button" aria-label="Закрыть">✕</button>' +
+          '</div>' +
+          '<div class="menu-list" id="menuList"></div>' +
+        '</aside>' +
         '<main>' +
           '<div class="stage">' +
             '<div class="toolbar" id="toolbar">' +
@@ -168,7 +177,7 @@
               '<div class="welcome" id="welcome">' +
                 '<div class="welcome-card">' +
                   '<h2>Выберите урок</h2>' +
-                  '<p>Слева — модули учебника. Можно открыть правила, все упражнения, чтение, аудирование, диалог и итоговый тест.</p>' +
+                  '<p>Откройте меню «Уроки» и выберите модуль: правила, упражнения, чтение, аудирование, диалог или тест.</p>' +
                 '</div>' +
                 '<div class="cards" id="cards"></div>' +
               '</div>' +
@@ -176,9 +185,16 @@
             '</div>' +
           '</div>' +
         '</main>' +
-      '</div>';
+      '</div>' +
+      '<nav class="bottom-nav" id="bottomNav">' +
+        '<button type="button" id="prevBtn">Назад</button>' +
+        '<button type="button" class="nav-main" id="openMenuBottom">Уроки</button>' +
+        '<button type="button" id="nextBtn">Далее</button>' +
+      '</nav>';
 
     var menu = document.getElementById("menu");
+    var menuList = document.getElementById("menuList");
+    var backdrop = document.getElementById("backdrop");
     var cards = document.getElementById("cards");
     var welcome = document.getElementById("welcome");
     var frame = document.getElementById("frame");
@@ -198,14 +214,53 @@
       saveProgress();
     }
 
+    var prevBtnDesktop = document.getElementById("prevBtnDesktop");
+    var nextBtnDesktop = document.getElementById("nextBtnDesktop");
+    var lessonSearch = document.getElementById("lessonSearch");
+    var lessonSearchDesktop = document.getElementById("lessonSearchDesktop");
+
+    function isPhone() {
+      return window.matchMedia("(max-width: 860px)").matches;
+    }
+
+    function setDrawer(open) {
+      menu.classList.toggle("open", open);
+      backdrop.classList.toggle("open", open);
+    }
+
     function updateNav() {
-      prevBtn.disabled = currentIndex <= 0;
-      nextBtn.disabled = currentIndex < 0 || currentIndex >= all.length - 1;
+      var atStart = currentIndex <= 0;
+      var atEnd = currentIndex < 0 || currentIndex >= all.length - 1;
+      prevBtn.disabled = atStart;
+      nextBtn.disabled = atEnd;
+      prevBtnDesktop.disabled = atStart;
+      nextBtnDesktop.disabled = atEnd;
       if (currentIndex >= 0) {
         counter.textContent = (currentIndex + 1) + " / " + all.length;
       } else {
         counter.textContent = doneCount(course) + " из " + all.length + " пройдено";
       }
+    }
+
+    function injectLessonStyles() {
+      try {
+        var doc = frame.contentDocument;
+        if (!doc || !doc.documentElement) return;
+        var head = doc.head || doc.documentElement;
+        if (!doc.querySelector('meta[name="viewport"]')) {
+          var meta = doc.createElement("meta");
+          meta.setAttribute("name", "viewport");
+          meta.setAttribute("content", "width=device-width, initial-scale=1");
+          head.insertBefore(meta, head.firstChild);
+        }
+        if (!doc.getElementById("orys-mobile-css")) {
+          var link = doc.createElement("link");
+          link.id = "orys-mobile-css";
+          link.rel = "stylesheet";
+          link.href = new URL("assets/lesson-mobile.css", location.href).href;
+          head.appendChild(link);
+        }
+      } catch (err) {}
     }
 
     function openLesson(entry, btn) {
@@ -228,7 +283,7 @@
       updateNav();
       setTitle(entry.item.name + " · " + course.title);
       history.replaceState(null, "", "./index.html?grade=" + course.grade + "&lesson=" + encodeURIComponent(entry.item.href));
-      if (window.matchMedia("(max-width: 860px)").matches) menu.classList.remove("open");
+      if (isPhone()) setDrawer(false);
     }
 
     function showHome() {
@@ -246,7 +301,7 @@
     }
 
     function buildMenu(query) {
-      menu.innerHTML = "";
+      menuList.innerHTML = "";
       cards.innerHTML = "";
       moduleNodes = [];
       var q = (query || "").trim().toLowerCase();
@@ -286,7 +341,7 @@
         });
         box.appendChild(head);
         box.appendChild(body);
-        menu.appendChild(box);
+        menuList.appendChild(box);
         moduleNodes[mi] = box;
 
         var card = el("button");
@@ -301,17 +356,25 @@
         });
         cards.appendChild(card);
       });
-      if (!menu.children.length) menu.appendChild(el("div", "empty-search", "Ничего не найдено."));
+      if (!menuList.children.length) menuList.appendChild(el("div", "empty-search", "Ничего не найдено."));
+    }
+
+    function onSearch(value) {
+      if (lessonSearch.value !== value) lessonSearch.value = value;
+      if (lessonSearchDesktop.value !== value) lessonSearchDesktop.value = value;
+      buildMenu(value);
     }
 
     buildMenu("");
     updateNav();
-    document.getElementById("lessonSearch").addEventListener("input", function (e) {
-      buildMenu(e.target.value);
-    });
-    document.getElementById("menuBtn").addEventListener("click", function () {
-      menu.classList.toggle("open");
-    });
+    lessonSearch.addEventListener("input", function (e) { onSearch(e.target.value); });
+    lessonSearchDesktop.addEventListener("input", function (e) { onSearch(e.target.value); });
+    document.getElementById("menuBtn").addEventListener("click", function () { setDrawer(true); });
+    document.getElementById("openMenuBottom").addEventListener("click", function () { setDrawer(true); });
+    document.getElementById("closeMenu").addEventListener("click", function () { setDrawer(false); });
+    backdrop.addEventListener("click", function () { setDrawer(false); });
+    frame.addEventListener("load", injectLessonStyles);
+
     function buttonFor(href) {
       return menu.querySelector('.lesson[data-href="' + href.replace(/"/g, "") + '"]');
     }
@@ -324,8 +387,11 @@
 
     prevBtn.addEventListener("click", function () { goTo(currentIndex - 1); });
     nextBtn.addEventListener("click", function () { goTo(currentIndex + 1); });
+    prevBtnDesktop.addEventListener("click", function () { goTo(currentIndex - 1); });
+    nextBtnDesktop.addEventListener("click", function () { goTo(currentIndex + 1); });
     document.addEventListener("keydown", function (e) {
       if (e.target && (e.target.tagName === "INPUT" || e.target.tagName === "TEXTAREA")) return;
+      if (e.key === "Escape") setDrawer(false);
       if (e.key === "ArrowLeft") goTo(currentIndex - 1);
       if (e.key === "ArrowRight") goTo(currentIndex + 1);
     });
