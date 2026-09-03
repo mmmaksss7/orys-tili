@@ -1,0 +1,89 @@
+.text {
+font-family: SchoolBook/Kazakh;
+font-size: 14pt;
+line-height: 125%;
+}
+
+.highlite {
+font-family: SchoolBook/Kazakh;
+font-size: 14pt;
+line-height: 125%;
+background-color: #fff200
+}
+
+.term {
+font-family: SchoolBook/Kazakh;
+font-size: 14pt;
+color: #ed1c24;
+font-style: italic;
+font-weight: bold;
+text-decoration: Underline;
+line-height: 125%;
+}
+
+.separation {
+font-family: SchoolBook/Kazakh;
+font-size: 14pt;
+color: #005e9e;
+line-height: 125%;
+}
+
+h1 {
+font-family: SchoolBook/Kazakh;
+font-size: 30pt;
+letter-spacing:1pt;
+line-height: 110%;
+font-weight: bold;
+color: #005e9e;
+}
+
+h2 {
+font-family: SchoolBook/Kazakh;
+font-size: 22pt;
+letter-spacing:1pt;
+line-height: 110%;
+font-weight: bold;
+color: #0072bc;
+}
+
+h3 {
+font-family: SchoolBook/Kazakh;
+font-size: 18pt;
+line-height: 110%;
+font-weight: bold;
+color: #00aeef;
+}
+
+li.blue {
+font-family: SchoolBook/Kazakh;
+font-size: 14pt;
+position: relative;
+left: -40px;
+margin: 2px auto;
+padding: 1px;
+text-align:left;
+list-style-type:none;
+border: 2px solid #51ccff;
+}
+
+li.green {
+font-family: SchoolBook/Kazakh;
+font-size: 14pt;
+position: relative;
+left: -40px;
+right: -200px;
+margin: 2px auto;
+padding: 1px;
+text-align:left;
+list-style-type:none;
+border: 2px solid #29f226;
+}
+
+.textbox {
+font-family: SchoolBook/Kazakh;
+font-size: 14pt;
+font-style: italic;
+background-color:#e7faff; 
+color:#005e9e; 
+border:ridge 0px
+}

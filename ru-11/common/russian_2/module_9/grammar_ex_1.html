@@ -1,0 +1,164 @@
+
+<html>
+<head>        <META HTTP-Equiv="Cache-Control" Content="no-cache">
+        <META HTTP-Equiv="Pragma" Content="no-cache">
+        <META HTTP-Equiv="Expires" Content="Tue, 01 Jan 1980 1:00:00 GMT">
+        <META http-equiv=Content-Type content="text/html; charset=utf-8">
+  <script type="text/javascript" src="../lib/prototype.js"></script>
+  <script type="text/javascript" src="../src/effects.js"></script>
+  <script type="text/javascript" src="../src/dragdrop.js"></script> 
+
+<script type="text/javascript">
+
+var myStartEffect = function(element) {   
+element._opacity = Element.getOpacity(element);
+new Effect.Opacity(element, {duration:0.2, from:element._opacity, to:0.7});
+new Effect.Highlight(element, {});
+}
+</script>
+
+  <script language="JavaScript" type="text/javascript">
+
+function Results(){
+
+var list_1=document.getElementsByTagName("li")
+
+if ((document.Excercise.text3.value=="ежика")&& ((document.Excercise.text2.value=="он")||(document.Excercise.text2.value=="еж"))&&
+((document.Excercise.text1.value=="его")||(document.Excercise.text1.value=="ежа"))&&
+((document.Excercise.text4.value=="он")||(document.Excercise.text4.value=="еж"))&&
+((document.Excercise.text6.value=="Он")||(document.Excercise.text6.value=="Ежик"))&&
+((document.Excercise.text7.value=="его")||(document.Excercise.text7.value=="ежа"))&&
+((document.Excercise.text8.value=="его")||(document.Excercise.text8.value=="ежа"))&&
+((document.Excercise.text9.value=="его")||(document.Excercise.text9.value=="ежа"))&&
+((document.Excercise.text10.value=="его")||(document.Excercise.text10.value=="ежа"))&&
+(list_1[0].id=="w1" && list_1[1].id=="w2" && list_1[2].id=="w3" && list_1[3].id=="w4"&& list_1[4].id=="w5" && list_1[5].id=="w6" && list_1[6].id=="w7" && list_1[7].id=="w8"))
+
+{document.Excercise.task.src="../images/exercise_true.png"} 
+else {document.Excercise.task.src="../images/exercise_false.png"} 
+} 
+
+  </script>
+</head>
+   
+  <title>Русский язык. 11 класс. Модуль 9: "Спорт и здоровье". Упражнения по грамматике</title>
+
+  <link href="../style.css" rel="stylesheet" type="text/css">
+
+</head>
+
+
+<body class="text">
+
+
+
+<form name="Excercise">
+  
+  <table>
+
+
+  <tbody>
+
+
+    <tr>
+
+
+      <td>
+      <img style="width: 128px; height: 128px;" alt="Задание 1" src="../images/exercise.png" id="task"></td>
+
+
+
+      <td>
+      
+        
+        <h2>Задание 1. Составить текст из данных вразброс предложений. Замените повторяющиеся существительные подходящими местоимениями</h2>
+
+
+      </td>
+
+
+    </tr>
+
+
+  
+    
+    </tbody>
+  
+  </table>
+
+<table>
+<tbody>
+<tr>
+<td>
+
+<ul id='sort_1'>
+
+<li class="blue" id="w3">Когда я подошел ближе и тронул <input name="text1" class="textbox" size="4" value="ежа"> носком ботинка, <input name="text2" class="textbox" size="4" value="еж"> смешно зафыркал.</li>
+
+<li class="blue" id="w1">Однажды, когда я проходил вдоль реки, которая протекала неподалеку от дома, я увидел под кустом <input name="text3" class="textbox" size="6" value="ежика">. </li>
+
+<li class="blue" id="w2">Когда <input name="text4" class="textbox" size="4" value="еж"> заметил меня, <input name="text5" class="textbox" size="4" value="еж"> свернулся в клубок.</li>
+
+<li class="blue" id="w7"><input name="text6" class="textbox" size="5" value="Ежик"> жил у нас целую неделю.</li>
+
+<li class="blue" id="w4">Я выломал палочку, снял свою шапку и вкатил в нее <input name="text7" class="textbox" size="4" value="ежа">.</li>
+
+<li class="blue" id="w5">В шапке я принес <input name="text8" class="textbox" size="4" value="ежа"> домой.</li>
+
+<li class="blue" id="w6">Когда братья увидели <input name="text9" class="textbox" size="4" value="ежа">, они очень обрадовались.</li>
+
+<li class="blue" id="w8">Когда мы приехали домой, мы принесли <input name="text10" class="textbox" size="4" value="ежа"> в школу, в живой уголок.</li>
+
+</ul>
+
+</td>
+</tr>
+</tbody>
+</table>
+
+<script type="text/javascript">  
+  Sortable.create('sort_1', {starteffect: myStartEffect}); 
+</script> 
+  
+  <table style="width: 100%;">
+
+
+    <tbody>
+
+
+      <tr>
+
+
+        <td style="width: 128px;"> <img style="width: 128px; height: 128px;" alt="Результат" src="../images/result.png" onclick="Results()"> </td>
+
+
+        <td> </td>
+
+
+        <td></td>
+
+
+        <td style="width: 128px;"><img style="width: 128px; height: 128px;" alt="Переход на предыдущую страницу" src="../images/prev_question.png"></td>
+
+
+        <td style="width: 128px;"><a href="grammar_ex_2.html"><img style="border: 0px solid ; width: 128px; height: 128px;" alt="Переход на следующую страницу" src="../images/next_question.png"></a>
+        </td>
+
+
+      </tr>
+
+
+    
+    
+    </tbody>
+  
+  
+  </table>
+
+
+
+</form>
+
+
+
+</body>
+</html>

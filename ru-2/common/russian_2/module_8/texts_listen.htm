@@ -1,0 +1,189 @@
+
+<html>
+<head>        <META HTTP-Equiv="Cache-Control" Content="no-cache">
+        <META HTTP-Equiv="Pragma" Content="no-cache">
+        <META HTTP-Equiv="Expires" Content="Tue, 01 Jan 1980 1:00:00 GMT">
+        <META http-equiv=Content-Type content="text/html; charset=utf-8">
+  <title>Русский язык. 2 класс. Модуль 8: "Птицы". Развитие речи</title>
+
+
+  <link href="../style.css" rel="stylesheet" type="text/css">
+ <script type="text/javascript" src="../lib/prototype.js"></script>
+  <script type="text/javascript" src="../src/effects.js"></script>
+  <script type="text/javascript" src="../src/dragdrop.js"></script>
+  <script type="text/javascript">
+var myStartEffect = function(element) { element._opacity = Element.getOpacity(element);
+new Effect.Opacity(element, {duration:0.2, from:element._opacity, to:0.7});
+new Effect.Highlight(element, {});
+}
+  </script>
+
+  <script type="text/javascript" language="JavaScript">
+function Results(){
+if (document.Reading.sent1.checked && document.Reading.sent2.checked && document.Reading.sent3.checked && document.Reading.sent4.checked && document.Reading.sent5.checked&& !document.Reading.sent6.checked){ document.Reading.task1.src="../images/exercise_true.png"} else {
+document.Reading.task1.src="../images/exercise_false.png"} if ((document.Reading.text1.value=="курочки") && (document.Reading.text2.value=="уточки")&& (document.Reading.text3.value=="гуся")&& (document.Reading.text4.value=="петух")){
+document.Reading.task3.src="../images/exercise_true.png"} else {
+document.Reading.task3.src="../images/exercise_false.png"}
+ 
+var list_w=document.getElementsByTagName("li")
+if ((list_w[0].id=="w3") && (list_w[1].id=="w1") && (list_w[2].id=="w4") && (list_w[3].id=="w2") )
+{document.Reading.task2.src="../images/exercise_true.png"} else {
+document.Reading.task2.src="../images/exercise_false.png"} }
+  </script>
+</head>
+
+
+<body class="text">
+
+<h1>Птицы</h1>
+
+<OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" ID=game WIDTH=660 HEIGHT=480><PARAM NAME=movie VALUE="presentation/list_2_8.swf"><PARAM NAME=menu VALUE=false><PARAM NAME=quality VALUE=best><PARAM NAME=bgcolor VALUE=#ffffff><embed src="presentation/list_2_8.swf" quality="best" bgcolor="#00ccff" menu="false" WIDTH="660" HEIGHT="480" TYPE="application/x-shockwave-flash"></EMBED></OBJECT>
+
+<form name="Reading">
+  <table>
+
+    <tbody>
+
+      <tr>
+
+        <td> <img style="width: 128px; height: 128px;" alt="Задание 1" src="../images/exercise.png" id="task1"></td>
+
+        <td>
+        <h3>Задание 1.&nbsp;Отметь слова, которые встретились
+в тексте</h3>
+
+        </td>
+
+      </tr>
+
+    </tbody>
+  </table>
+
+  <input name="sent1" type="checkbox"> петух<br>
+
+  <input name="sent2" type="checkbox"> гусь<br>
+
+  <input name="sent3" type="checkbox"> утка<br>
+
+  <input name="sent4" type="checkbox"> двор<br>
+
+  <input name="sent5" type="checkbox"> два<br>
+
+  <input name="sent6" type="checkbox"> ласточка<br>
+
+  <br>
+
+  <table>
+
+    <tbody>
+
+      <tr>
+
+        <td> <img style="width: 128px; height: 128px;" alt="Задание 2" src="../images/exercise.png" id="task2"></td>
+
+        <td>
+        <h3>Задание 2. Расставь строчки по порядку</h3>
+
+        </td>
+
+      </tr>
+
+    </tbody>
+  </table>
+
+  <table>
+
+    <tbody>
+
+      <tr>
+
+        <td>
+        <ul id="sort_1">
+
+          <li class="blue" id="w1">Во дворе &ndash; две курочки,<br>
+
+          </li>
+
+          <li class="blue" id="w2">И один петух в саду.<br>
+
+          </li>
+
+          <li class="blue" id="w3">На воде &ndash; две уточки,<br>
+
+          </li>
+
+          <li class="blue" id="w4">Два гуся в пруду</li>
+
+        </ul>
+
+        </td>
+
+      </tr>
+
+    </tbody>
+  </table>
+
+  <script type="text/javascript"> Sortable.create('sort_1', {starteffect: myStartEffect}); </script>
+  <table>
+
+    <tbody>
+
+      <tr>
+
+        <td> <img style="width: 128px; height: 128px;" alt="Задание 3" src="../images/exercise.png" id="task3"></td>
+
+        <td>
+        <h3>Задание 3. Допиши предложения</h3>
+
+        </td>
+
+      </tr>
+
+    </tbody>
+  </table>
+
+  <table class="text" style="text-align: left;" cellpadding="2" cellspacing="2">
+
+    <tbody>
+
+      <tr>
+
+        <td></td>
+
+        <td></td>
+
+      </tr>
+
+      <tr>
+
+        <td>Во дворе &ndash; две&nbsp;<input name="text1" class="textbox" size="12" value="">.</td>
+
+        <td>На воде &ndash; две <input name="text2" class="textbox" size="12" value="">.</td>
+
+      </tr>
+
+      <tr>
+
+        <td></td>
+
+        <td></td>
+
+      </tr>
+
+      <tr>
+
+        <td>Два <input name="text3" class="textbox" size="12" value=""> в пруду.</td>
+
+        <td>И один&nbsp;<input name="text4" class="textbox" size="12" value=""> в саду.</td>
+
+      </tr>
+
+    </tbody>
+  </table>
+
+  <p> <input value="Результат" onclick="Results();" type="button"> <input value="Очистить все" type="reset"> </p>
+
+</form>
+
+</body>
+</html>

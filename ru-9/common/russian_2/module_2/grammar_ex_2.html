@@ -1,0 +1,110 @@
+
+<html>
+<head>        <META HTTP-Equiv="Cache-Control" Content="no-cache">
+        <META HTTP-Equiv="Pragma" Content="no-cache">
+        <META HTTP-Equiv="Expires" Content="Tue, 01 Jan 1980 1:00:00 GMT">
+        <META http-equiv=Content-Type content="text/html; charset=utf-8">
+  <title>Русский язык. 9 класс. Модуль 2: "Русский язык и русская литература".  Упражнения по грамматике </title>
+
+
+  <link href="../style.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript" src="../lib/prototype.js"></script>
+<script type="text/javascript" src="../src/effects.js"></script>
+<script type="text/javascript" src="../src/dragdrop.js"></script>
+
+<script type="text/javascript">
+
+var myStartEffect = function(element) {   
+element._opacity = Element.getOpacity(element);
+new Effect.Opacity(element, {duration:0.2, from:element._opacity, to:0.7});
+new Effect.Highlight(element, {});
+}
+</script>
+
+<script language="JavaScript" type="text/javascript">
+
+function Results(){
+
+	var list_w=document.getElementsByTagName("li")
+
+	if (((list_w[8].id=="w5") && (list_w[9].id=="w4") && (list_w[10].id=="w3") && (list_w[11].id=="w1") && (list_w[12].id=="w8") && (list_w[13].id=="w7") && (list_w[14].id=="w6") && (list_w[15].id=="w2"))|| ((list_w[8].id=="w5") && (list_w[9].id=="w4") && (list_w[10].id=="w8") && (list_w[11].id=="w1") && (list_w[12].id=="w3") && (list_w[13].id=="w7") && (list_w[14].id=="w6") && (list_w[15].id=="w2"))|| ((list_w[8].id=="w6") && (list_w[9].id=="w4") && (list_w[10].id=="w8") && (list_w[11].id=="w1") && (list_w[12].id=="w3") && (list_w[13].id=="w7") && (list_w[14].id=="w5") && (list_w[15].id=="w2"))||((list_w[8].id=="w6") && (list_w[9].id=="w4") && (list_w[10].id=="w3") && (list_w[11].id=="w1") && (list_w[12].id=="w8") && (list_w[13].id=="w7") && (list_w[14].id=="w5") && (list_w[15].id=="w2")) ){document.Exercise.task.src="../images/exercise_true.png"} 
+	else {
+		document.Exercise.task.src="../images/exercise_false.png"} 
+}
+</script>
+
+</head>
+
+<body class="text">
+
+<form name="Exercise">
+<table>
+  <tbody>
+    <tr>
+      <td>
+      <img style="width: 128px; height: 128px;" alt="Задание 2" src="../images/exercise.png" id="task"></td>
+
+      <td>
+      <h2>Задание 2. Соедините следующие простые предложения подходящими союзами</h2>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table >
+  <tbody>
+    <tr>
+      <td >
+<ul>
+<li class="green">Ваня учится. Его сестра ходит в школу.
+<li class="green">Наступила ночь. Выглянул месяц.
+<li class="green">Скрипнет дверь. Откроется калитка.
+<li class="green">Дети обожают мороженое. Взрослые любят его.
+<li class="green">Солнце выглянет. Туча набежит.
+<li class="green">Сам никуда не ездил. У себя никого не принимал.
+<li class="green">Отряд был совершенно измотан. Его командир устал.
+<li class="green">Вдалеке был пожар. Это закат пламенел.
+</ul>
+      </td>
+
+      <td >
+<ul id="sort_1">
+<li class="blue" id="w1">не только…но и
+<li class="blue" id="w2">то ли …то ли
+<li class="blue" id="w3">то…то
+<li class="blue" id="w4">и
+<li class="blue" id="w5">тоже
+<li class="blue" id="w6">также
+<li class="blue" id="w7">ни…ни
+<li class="blue" id="w8">то…то
+</ul>
+      </td>
+   </tr>
+  </tbody>
+</table>
+
+<script type="text/javascript">  
+  Sortable.create('sort_1', {starteffect: myStartEffect}); 
+</script>
+
+  
+  <table style="width: 100%;">
+    <tbody>
+      <tr>
+	<td style="width: 128px;">
+	  <img style="width: 128px; height: 128px;" alt="Результат" src="../images/result.png"onclick="Results()">
+	</td>
+	<td>
+	</td>
+        <td style="width: 128px;"><a href="grammar_ex_1.html"><img style="width: 128px; height: 128px; border: 0px solid;" alt="Переход на предыдущую страницу" src="../images/prev_question.png"></a></td>
+        <td style="width: 128px;"><a href="grammar_ex_3.html"><img style="width: 128px; height: 128px; border: 0px solid;" alt="Переход на следующую страницу" src="../images/next_question.png"></a>
+	</td>
+      </tr>
+    </tbody>
+  </table>
+
+</form>
+
+</body>
+</html>

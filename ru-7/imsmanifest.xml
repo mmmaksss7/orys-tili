@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This is a Reload version 2.5.2 SCORM 2004 Content Package document-->
+<!--Spawned from the Reload Content Package Generator - http://www.reload.ac.uk-->
+<manifest xmlns="http://www.imsglobal.org/xsd/imscp_v1p1" xmlns:imsmd="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_v1p3" xmlns:imsss="http://www.imsglobal.org/xsd/imsss" xmlns:adlseq="http://www.adlnet.org/xsd/adlseq_v1p3" xmlns:adlnav="http://www.adlnet.org/xsd/adlnav_v1p3" identifier="MANIFEST-AB93A281872A004692F6E8CA0FDF58F9" xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 imscp_v1p1.xsd http://ltsc.ieee.org/xsd/LOM lom.xsd http://www.adlnet.org/xsd/adlcp_v1p3 adlcp_v1p3.xsd http://www.imsglobal.org/xsd/imsss imsss_v1p0.xsd http://www.adlnet.org/xsd/adlseq_v1p3 adlseq_v1p3.xsd http://www.adlnet.org/xsd/adlnav_v1p3 adlnav_v1p3.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+  </metadata>
+  <organizations default="ORG-099BB587E91C09F4B7C96E991C6C03CB">
+    <organization identifier="ORG-099BB587E91C09F4B7C96E991C6C03CB" structure="hierarchical">
+      <title>Русский язык, 7 класс</title>
+      <item identifier="ITEM-40FF7A347B4A295A938A6C6F549676B4" isvisible="true">
+        <title>Модуль 1. Обычаи, праздники</title>
+        <item identifier="ITEM-74A8FDCA30B141B12495F5C60C7407F7" isvisible="true">
+          <title>Грамматика</title>
+          <item identifier="ITEM-B1FFE5F307600E4C14557B0557D04ABA" isvisible="true" identifierref="RES-DF37D37B7D6DE557D1F43D0F0D91A4EE">
+            <title>Правила</title>
+          </item>
+          <item identifier="ITEM-A904BF80847F04C7381635FD61A7A5BF" isvisible="true" identifierref="RES-39CB5FD14E4D4AB8F9D090B7F61E7B4C">
+            <title>Упражнения</title>
+          </item>
+        </item>
+        <item identifier="ITEM-D08054FBB9E495C998B489F067184D64" isvisible="true">
+          <title>Новые слова</title>
+          <item identifier="ITEM-FBE5C0E36A5B4AC9EF942569AFDABAC9" isvisible="true" identifierref="RES-5DD3116A628EE7C0F7802744F1C80578">
+            <title>Чтение и перевод</title>
+          </item>
+          <item identifier="ITEM-2BC1B77E90AC15C27AB85E34B592945B" isvisible="true" identifierref="RES-1A1B6E3DA42266AA99263AF018F7EFD9">
+            <title>Упражнения</title>
+          </item>
+        </item>
+        <item identifier="ITEM-78F1F8CA5EA9B9B1AB476403BE146F1E" isvisible="true">
+          <title>Развитие речи</title>
+          <item identifier="ITEM-B2B737043D65ACF2FF7BE40D42CCFD9A" isvisible="true" identifierref="RES-B16AD736EA3C8A571DC74842032CC66D">
+            <title>Чтение</title>
+          </item>
+          <item identifier="ITEM-F3582FBC645E34BDAF27608BDBC68990" isvisible="true" identifierref="RES-195402792C0995FEB1DCF0957754F530">
+            <title>Аудирование</title>
+          </item>
+          <item identifier="ITEM-05ABF4C53028930A367C9AE04EA5AC51" isvisible="true" identifierref="RES-1FCA663FB5FD8A28DAA74B6FAD70532F">
+            <title>Диалог</title>
+          </item>
+        </item>
+        <item identifier="ITEM-6BFF0102114A5055D9C8256782A59558" isvisible="true" identifierref="RES-AA793408B74A679EF389CBD51F344585">
+          <title>Итоговый тест</title>
+        </item>
+      </item>
+      <item identifier="ITEM-831B4932F30B4BF61A7FE4083D85BD6E" isvisible="true">
+        <title>Модуль 2. Этикет</title>
+        <item identifier="ITEM-451E3ADF5307B4962A9C83C5996087F1" isvisible="true">
+          <title>Грамматика</title>
+          <item identifier="ITEM-31A9732B67961112E3594F4323FE0E48" isvisible="true" identifierref="RES-B25DF9360CDBC1F05930DDB2A7F2DD32">
+            <title>Правила</title>
+          </item>
+          <item identifier="ITEM-A6B0BA9EC9FA7E1B1B613D4C0AA357FF" isvisible="true" identifierref="RES-08BB2A1FBD0DD2618D905B44C03E32BA">
+            <title>Упражнения</title>
+          </item>
+        </item>
+        <item identifier="ITEM-AC98F694852BAF698176E5A4D2FFB495" isvisible="true">
+          <title>Новые слова</title>
+          <item identifier="ITEM-600EDA38F2636F17FE3F3BE3FFB50DFC" isvisible="true" identifierref="RES-1C855EC1FD27A3F748ABF701C4940115">
+            <title>Чтение и перевод</title>
+          </item>
+          <item identifier="ITEM-600C6784FDE20C83158330BCD7C60720" isvisible="true" identifierref="RES-BA51C49D4FE366BB5561B6E401B78520">
+            <title>Упражнения</title>
+          </item>
+        </item>
+        <item identifier="ITEM-4112F00B59B0C70D507B5581212D8C14" isvisible="true">
+          <title>Развитие речи</title>
+          <item identifier="ITEM-CC294516E717448607DA3DDD2B83D529" isvisible="true" identifierref="RES-CDC7D3E7F2CA2A5973EFB4F6D5285C3C">
+            <title>Чтение</title>
+          </item>
+          <item identifier="ITEM-55B1C0C5E9020EC6B6AE1326C1E9DE55" isvisible="true" identifierref="RES-46B340D965FC3FB129D75EA63C26AD3B">
+            <title>Аудирование</title>
+          </item>
+          <item identifier="ITEM-B96B8EF9CA4F38BD9547CBBA5CB47D66" isvisible="true" identifierref="RES-0BAB7152FFD601D788509ED94A9084D4">
+            <title>Диалог</title>
+          </item>
+        </item>
+        <item identifier="ITEM-DF75CC25F7086995A679682C0ABB1385" isvisible="true" identifierref="RES-1861F5675EB3DE7574495B9BC8D26E90">
+          <title>Итоговый тест</title>
+        </item>
+      </item>
+      <item identifier="ITEM-010D9BF5B370E18771D12890DD394F09" isvisible="true">
+        <title>Модуль 3. Знакомство с искусством</title>
+        <item identifier="ITEM-CB040B575AF3B30D192B177BB46D68E8" isvisible="true">
+          <title>Грамматика</title>
+          <item identifier="ITEM-E4AE0A8B9C85583C647D0459BB20A124" isvisible="true" identifierref="RES-72283A1272C5069E016821E628235344">
+            <title>Правила</title>
+          </item>
+          <item identifier="ITEM-5525D894599ECE5D448A81F7B7112737" isvisible="true" identifierref="RES-9EB8D42ED498195EB50A18015661B7EF">
+            <title>Упражнения</title>
+          </item>
+        </item>
+        <item identifier="ITEM-9F5AEA5A9DF06C6F2060E1F00013402A" isvisible="true">
+          <title>Новые слова</title>
+          <item identifier="ITEM-82A0D3FFC03059F9E5B4EC3043986448" isvisible="true" identifierref="RES-3548BD672ACDDF8B0081DC27F33A8DC0">
+            <title>Чтение и перевод</title>
+          </item>
+          <item identifier="ITEM-B043E1927A163BE6EDB8126AC7E156A3" isvisible="true" identifierref="RES-D5E948D0A7DE92FFE2CAA01FE9100AB7">
+            <title>Упражнения</title>
+          </item>
+        </item>
+        <item identifier="ITEM-CA95955140D1556B0C8322310B395033" isvisible="true">
+          <title>Развитие речи</title>
+          <item identifier="ITEM-CD129885DE0DCC9720C0CD87E5B2E0E6" isvisible="true" identifierref="RES-41B1A38017C8AB1D3EAC8D6DB79D3E24">
+            <title>Чтение</title>
+          </item>
+          <item identifier="ITEM-2EBC4D4E17610939E587D15F896CACDD" isvisible="true" identifierref="RES-8EB5900169A5319421182CED1D7C13DE">
+            <title>Аудирование</title>
+          </item>
+          <item identifier="ITEM-0AB7DA21B65A908384E49AE92D45178E" isvisible="true" identifierref="RES-C2D6AE3E88BCE569933DDA17ACFA8D7F">
+            <title>Диалог</title>
+          </item>
+        </item>
+        <item identifier="ITEM-2397A6EF2B6D8EC50E6046E0BA572D61" isvisible="true" identifierref="RES-59D57F8B3745365F3AF2D5063EA2FD7C">
+          <title>Итоговый тест</title>
+        </item>
+      </item>
+      <item identifier="ITEM-1C11680FDF51B2B3F6E604A35D5632DC" isvisible="true">
+        <title>Модуль 4. Транспорт, движение</title>
+        <item identifier="ITEM-53A3F54991CDE856D8BE213221296BD2" isvisible="true">
+          <title>Грамматика</title>
+          <item identifier="ITEM-8DB693ECA28253866CF2CEEB5266D5E7" isvisible="true" identifierref="RES-DEF592FFA62C33731F68FEF84C5CA132">
+            <title>Правила</title>
+          </item>
+          <item identifier="ITEM-91D39B1BF0091D0EF889CE59E29BB228" isvisible="true" identifierref="RES-5A5BF494477BB52AA4586F94B5367010">
+            <title>Упражнения</title>
+          </item>
+        </item>
+        <item identifier="ITEM-8ABB2A2A3C27A6FCB1DE18645CC95D67" isvisible="true">
+          <title>Новые слова</title>
+          <item identifier="ITEM-AF3F43D500730A28AF57A2C3666BFDAF" isvisible="true" identifierref="RES-AEF670ADDA05A5BBFC9F022B9C440073">
+            <title>Чтение и перевод</title>
+          </item>
+          <item identifier="ITEM-DF7670B1443417F39C83B332D9CC67CF" isvisible="true" identifierref="RES-CCB3ABA15B07CCB256F59ECEE43F789C">
+            <title>Упражнения</title>
+          </item>
+        </item>
+        <item identifier="ITEM-E5C5D653435AD3DB8D096BBD92049348" isvisible="true">
+          <title>Развитие речи</title>
+          <item identifier="ITEM-9B5764EC474A90BB769E6F34AB6366B5" isvisible="true" identifierref="RES-BDD467F4BF6F48A00E1CCF6702E7A07D">
+            <title>Чтение</title>
+          </item>
+          <item identifier="ITEM-66975D6A9216D6C38CFDC85BF384CF0E" isvisible="true" identifierref="RES-79E81E2DE5B42DC60C4E7D1FB145DB36">
+            <title>Аудирование</title>
+          </item>
+          <item identifier="ITEM-165C7989D00FCB68E7840D1DB2726D70" isvisible="true" identifierref="RES-7D4A1950AFAC50BC888E0DD753E97361">
+            <title>Диалог</title>
+          </item>
+        </item>
+        <item identifier="ITEM-6E4DEBE1D622D624E209A3E58C95771C" isvisible="true" identifierref="RES-086C56290954BB81669975E5B2B51365">
+          <title>Итоговый тест</title>
+        </item>
+      </item>
+      <item identifier="ITEM-FB5F503EB783FB442E814D21161F7614" isvisible="true">
+        <title>Модуль 5. Страноведение</title>
+        <item identifier="ITEM-E3CA655FDF0D741DD5A36986A8A89F12" isvisible="true">
+          <title>Грамматика</title>
+          <item identifier="ITEM-B6C3AEF67F1D271AF769C3E590962DF1" isvisible="true" identifierref="RES-584F7D325316C5DC36ED34E52C35971B">
+            <title>Правила</title>
+          </item>
+          <item identifier="ITEM-0A5677B84EC08D70AD320F3C44D38918" isvisible="true" identifierref="RES-CF165804AE45B52256CD65E345F2A9AC">
+            <title>Упражнения</title>
+          </item>
+        </item>
+        <item identifier="ITEM-2486F7E9E3DA54A489F1A0085141BAA7" isvisible="true">
+          <title>Новые слова</title>
+          <item identifier="ITEM-A1C3496B34E77766AC7339CA56F1A043" isvisible="true" identifierref="RES-EE48304D4ECAEA8E9FE5D1F66A52F016">
+            <title>Чтение и перевод</title>
+          </item>
+          <item identifier="ITEM-D3C4CF302453745B5CBB50FB67939507" isvisible="true" identifierref="RES-BA4F4850BF00FA4D17E6C8971FBBAB16">
+            <title>Упражнения</title>
+          </item>
+        </item>
+        <item identifier="ITEM-D4613333E571BB528DB6AD64BD3B8E4F" isvisible="true">
+          <title>Развитие речи</title>
+          <item identifier="ITEM-0BB0DB00651C2C5DA3F24E4FAFE49830" isvisible="true" identifierref="RES-3D2AB8D6A7F29D4ABB63CE47368B1CF8">
+            <title>Чтение</title>
+          </item>
+          <item identifier="ITEM-C9038BE49B762C170AE896928BC78356" isvisible="true" identifierref="RES-8C38C994F0138733D034F35FB8049887">
+            <title>Аудирование</title>
+          </item>
+          <item identifier="ITEM-2460FD864D1EB0FEFE6A73F0B01CE150" isvisible="true" identifierref="RES-E950928B29A4FA0711A3AEAC72177EA2">
+            <title>Диалог</title>
+          </item>
+        </item>
+        <item identifier="ITEM-B849AC50A7B0EE74CE94044324F8D612" isvisible="true" identifierref="RES-855B2E34649456E3B6D4AC55CA0A0AC3">
+          <title>Итоговый тест</title>
+        </item>
+      </item>
+      <item identifier="ITEM-26F8BE96D2FE2B617A653B62AE1E7704" isvisible="true">
+        <title>Модуль 6. Путешествие по России</title>
+        <item identifier="ITEM-85460E7DC1A8E92034125F1A9B92F83E" isvisible="true">
+          <title>Грамматика</title>
+          <item identifier="ITEM-B12513E949B17969303CB647CDE044DA" isvisible="true" identifierref="RES-C601385B7C1E7481F64ACCE964F14DE7">
+            <title>Правила</title>
+          </item>
+          <item identifier="ITEM-9635DC23D2F432E799DA000CB14DD0A3" isvisible="true" identifierref="RES-D15F30570A39E14DE35D28C34DD0E748">
+            <title>Упражнения</title>
+          </item>
+        </item>
+        <item identifier="ITEM-D86B4835519E4B5250E9AC0868A42C63" isvisible="true">
+          <title>Новые слова</title>
+          <item identifier="ITEM-EC4F07D273595083A26A283F7DF3C897" isvisible="true" identifierref="RES-56351EB19374896B1DA95ACC4EB02BC3">
+            <title>Чтение и перевод</title>
+          </item>
+          <item identifier="ITEM-2BA72BEFA6AB6F2331EE5ADA1F6F872A" isvisible="true" identifierref="RES-9BAE4E551FD77E0FB5607C092CBCC97A">
+            <title>Упражнения</title>
+          </item>
+        </item>
+        <item identifier="ITEM-C5148062C7DAE3EA070E2C5C5D05510D" isvisible="true">
+          <title>Развитие речи</title>
+          <item identifier="ITEM-9D4E8D18B4A40A13ADBACD23316E49EF" isvisible="true" identifierref="RES-9D72951E9719E50A775A3D8CE3BD67EE">
+            <title>Чтение</title>
+          </item>
+          <item identifier="ITEM-6A35BC4A5ECC6C45EAD7D1AAFD8869ED" isvisible="true" identifierref="RES-2337DEA0575BBF7EDEBE2D7DEF7272D2">
+            <title>Аудирование</title>
+          </item>
+          <item identifier="ITEM-688578B939468689E26B1770A158ED83" isvisible="true" identifierref="RES-2F74FE71DBB44AAA2ED3046B737BB4D3">
+            <title>Диалог</title>
+          </item>
+        </item>
+        <item identifier="ITEM-B4AE6B9AEC70668EC8FA77F76493D48C" isvisible="true" identifierref="RES-92831BF1BBC25D344B4435D9D51500A1">
+          <title>Итоговый тест</title>
+        </item>
+      </item>
+      <item identifier="ITEM-549991CEBCB19F517D86E8FF7BCEE79D" isvisible="true">
+        <title>Модуль 7. Межличностные отношения</title>
+        <item identifier="ITEM-153B2DA3614575215DC7AB416C195338" isvisible="true">
+          <title>Грамматика</title>
+          <item identifier="ITEM-3BDCE31CC203BFB69B0716CAB69FB93B" isvisible="true" identifierref="RES-A7C72BB0C9F95A8F68936C4461CDE742">
+            <title>Правила</title>
+          </item>
+          <item identifier="ITEM-22B0A3B41E1580B78268386B4D491F6C" isvisible="true" identifierref="RES-9F77C7482B86B1D87A11681EFFE61ECF">
+            <title>Упражнения</title>
+          </item>
+        </item>
+        <item identifier="ITEM-2D6816DCDC21A93469A1E00DF501FFD3" isvisible="true">
+          <title>Новые слова</title>
+          <item identifier="ITEM-773643C5B6473D3E54D3AA983CC3B52D" isvisible="true" identifierref="RES-4164DA93955840755A9248B613944DCD">
+            <title>Чтение и перевод</title>
+          </item>
+          <item identifier="ITEM-5147F069BBDB2FA9885E2CECF3745BD0" isvisible="true" identifierref="RES-BE7F53257918EDCFF1B351A5B8E2B507">
+            <title>Упражнения</title>
+          </item>
+        </item>
+        <item identifier="ITEM-48387FBFC1B013303473E28D46C60F77" isvisible="true">
+          <title>Развитие речи</title>
+          <item identifier="ITEM-287FE6B799E7F82D764F0B6664848C41" isvisible="true" identifierref="RES-3714EC996640EBE463848859ADB6A100">
+            <title>Чтение</title>
+          </item>
+          <item identifier="ITEM-C2991F00EC2885D88AEC65443400C906" isvisible="true" identifierref="RES-0944AD1E0ADCA363EEC987DC6E9E5CE3">
+            <title>Аудирование</title>
+          </item>
+          <item identifier="ITEM-F0CBB6E009B31485D70A9BE6552A66F6" isvisible="true" identifierref="RES-8EB00192693E373A7557AA34D4323A75">
+            <title>Диалог</title>
+          </item>
+        </item>
+        <item identifier="ITEM-9D35B4CA1B75C8AE8C0C5F1F2BAB2668" isvisible="true" identifierref="RES-70F70AE4B3194EEF2E20F7AFAD828454">
+          <title>Итоговый тест</title>
+        </item>
+      </item>
+      <item identifier="ITEM-D550939F4F4CF35B1A42917563BCE7B7" isvisible="true">
+        <title>Модуль 8. Деловое общение</title>
+        <item identifier="ITEM-3BA1CA72D566BA7259D0AF5E94BBED3F" isvisible="true">
+          <title>Грамматика</title>
+          <item identifier="ITEM-1095C88C6EA6E7C8F5395ABC86D1E875" isvisible="true" identifierref="RES-5434DA32B9DADEFC72D66F28BD7EC819">
+            <title>Правила</title>
+          </item>
+          <item identifier="ITEM-DAF7F3BBE242A01A4CCFFF6EBA5C13F6" isvisible="true" identifierref="RES-13915EB6CFC46E8C25844D4F32FBF2D4">
+            <title>Упражнения</title>
+          </item>
+        </item>
+        <item identifier="ITEM-1F779A5DA8BEAECB1E458560B6EA0E63" isvisible="true">
+          <title>Новые слова</title>
+          <item identifier="ITEM-6BA1B305E28B307BDD438CDF640A33A6" isvisible="true" identifierref="RES-85D092B2C7F67A0F93AF485C89BA7EDE">
+            <title>Чтение и перевод</title>
+          </item>
+          <item identifier="ITEM-6F82918C65A3DF0A5F17D7BA409F733D" isvisible="true" identifierref="RES-9889EB5F8FEC6929DC75C23AECA1D817">
+            <title>Упражнения</title>
+          </item>
+        </item>
+        <item identifier="ITEM-B30BA0E47923B2E8C74F67C9D73DDEAF" isvisible="true">
+          <title>Развитие речи</title>
+          <item identifier="ITEM-133C3DB2BFE3FFA58A74F09FDF8BEAAE" isvisible="true" identifierref="RES-F9818D9F5C352C22009DA719FE5DC1B8">
+            <title>Чтение</title>
+          </item>
+          <item identifier="ITEM-FE39CCDDF94B6B3D20E887E1F6C88BA1" isvisible="true" identifierref="RES-14DB2FC17203B3E1A63789DA22B0AF80">
+            <title>Аудирование</title>
+          </item>
+          <item identifier="ITEM-80F4221AD82CCB832ADD2081EE0A1A53" isvisible="true" identifierref="RES-E9908545ACDD4EBF39CE6185B018E9DC">
+            <title>Диалог</title>
+          </item>
+        </item>
+        <item identifier="ITEM-5A23B20ADEBDC1621240CB5D9ACE244F" isvisible="true" identifierref="RES-3C1C7F4A849C3E159EE1F3845649079E">
+          <title>Итоговый тест</title>
+        </item>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="RES-DF37D37B7D6DE557D1F43D0F0D91A4EE" adlcp:scormType="asset" type="webcontent" href="common/russian_7/module_1/grammar_rules.htm">
+      <file href="common/russian_7/module_1/grammar_rules.htm" />
+    </resource>
+    <resource identifier="RES-39CB5FD14E4D4AB8F9D090B7F61E7B4C" adlcp:scormType="asset" type="webcontent" href="common/russian_7/module_1/grammar_ex_1.html">
+      <file href="common/russian_7/module_1/grammar_ex_1.html" />
+    </resource>
+    <resource identifier="RES-5DD3116A628EE7C0F7802744F1C80578" adlcp:scormType="asset" type="webcontent" href="common/russian_7/module_1/vocabulary_new_words1.htm">
+      <file href="common/russian_7/module_1/vocabulary_new_words1.htm" />
+    </resource>
+    <resource identifier="RES-1A1B6E3DA42266AA99263AF018F7EFD9" adlcp:scormType="asset" type="webcontent" href="common/russian_7/module_1/vocabulary_exercises_1.htm">
+      <file href="common/russian_7/module_1/vocabulary_exercises_1.htm" />
+    </resource>
+    <resource identifier="RES-B16AD736EA3C8A571DC74842032CC66D" adlcp:scormType="asset" type="webcontent" href="common/russian_7/module_1/texts_read.htm">
+      <file href="common/russian_7/module_1/texts_read.htm" />
+    </resource>
+    <resource identifier="RES-195402792C0995FEB1DCF0957754F530" adlcp:scormType="asset" type="webcontent" href="common/russian_7/module_1/texts_listen.htm">
+      <file href="common/russian_7/module_1/texts_listen.htm" />
+    </resource>
+    <resource identifier="RES-1FCA663FB5FD8A28DAA74B6FAD70532F" adlcp:scormType="asset" type="webcontent" href="common/russian_7/module_1/dialog_play.htm">
+      <file href="common/russian_7/module_1/dialog_play.htm" />
+    </resource>
+    <resource identifier="RES-AA793408B74A679EF389CBD51F344585" adlcp:scormType="asset" type="webcontent" href="common/russian_7/module_1/test.htm">
+      <file href="common/russian_7/module_1/test.htm" />
+    </resource>
+    <resource identifier="RES-B25DF9360CDBC1F05930DDB2A7F2DD32" adlcp:scormType="asset" type="webcontent" href="common/russian_7/module_2/grammar_rules.htm">
+      <file href="common/russian_7/module_2/grammar_rules.htm" />
+    </resource>
+    <resource identifier="RES-08BB2A1FBD0DD2618D905B44C03E32BA" adlcp:scormType="asset" type="webcontent" href="common/russian_7/module_2/grammar_ex_1.html">
+      <file href="common/russian_7/module_2/grammar_ex_1.html" />
+    </resource>
+    <resource identifier="RES-1C855EC1FD27A3F748ABF701C4940115" adlcp:scormType="asset" type="webcontent" href="common/russian_7/module_2/vocabulary_new_words1.htm">
+      <file href="common/russian_7/module_2/vocabulary_new_words1.htm" />
+    </resource>
+    <resource identifier="RES-BA51C49D4FE366BB5561B6E401B78520" adlcp:scormType="asset" type="webcontent" href="common/russian_7/module_2/vocabulary_exercises_1.htm">
+      <file href="common/russian_7/module_2/vocabulary_exercises_1.htm" />
+    </resource>
+    <resource identifier="RES-CDC7D3E7F2CA2A5973EFB4F6D5285C3C" adlcp:scormType="asset" type="webcontent" href="common/russian_7/module_2/texts_read.htm">
+      <file href="common/russian_7/module_2/texts_read.htm" />
+    </resource>
+    <resource identifier="RES-46B340D965FC3FB129D75EA63C26AD3B" adlcp:scormType="asset" type="webcontent" href="common/russian_7/module_2/texts_listen.htm">
+      <file href="common/russian_7/module_2/texts_listen.htm" />
+    </resource>
+    <resource identifier="RES-0BAB7152FFD601D788509ED94A9084D4" adlcp:scormType="asset" type="webcontent" href="common/russian_7/module_2/dialog_play.htm">
+      <file href="common/russian_7/module_2/dialog_play.htm" />
+    </resource>
+    <resource identifier="RES-1861F5675EB3DE7574495B9BC8D26E90" adlcp:scormType="asset" type="webcontent" href="common/russian_7/module_2/test.htm">
+      <file href="common/russian_7/module_2/test.htm" />
+    </resource>
+    <resource identifier="RES-72283A1272C5069E016821E628235344" adlcp:scormType="asset" type="webcontent" href="common/russian_7/module_3/grammar_rules.htm">
+      <file href="common/russian_7/module_3/grammar_rules.htm" />
+    </resource>
+    <resource identifier="RES-9EB8D42ED498195EB50A18015661B7EF" adlcp:scormType="asset" type="webcontent" href="common/russian_7/module_3/grammar_ex_1.html">
+      <file href="common/russian_7/module_3/grammar_ex_1.html" />
+    </resource>
+    <resource identifier="RES-3548BD672ACDDF8B0081DC27F33A8DC0" adlcp:scormType="asset" type="webcontent" href="common/russian_7/module_3/vocabulary_new_words1.htm">
+      <file href="common/russian_7/module_3/vocabulary_new_words1.htm" />
+    </resource>
+    <resource identifier="RES-D5E948D0A7DE92FFE2CAA01FE9100AB7" adlcp:scormType="asset" type="webcontent" href="common/russian_7/module_3/vocabulary_exercises_1.htm">
+      <file href="common/russian_7/module_3/vocabulary_exercises_1.htm" />
+    </resource>
+    <resource identifier="RES-41B1A38017C8AB1D3EAC8D6DB79D3E24" adlcp:scormType="asset" type="webcontent" href="common/russian_7/module_3/texts_read.htm">
+      <file href="common/russian_7/module_3/texts_read.htm" />
+    </resource>
+    <resource identifier="RES-8EB5900169A5319421182CED1D7C13DE" adlcp:scormType="asset" type="webcontent" href="common/russian_7/module_3/texts_listen.htm">
+      <file href="common/russian_7/module_3/texts_listen.htm" />
+    </resource>
+    <resource identifier="RES-C2D6AE3E88BCE569933DDA17ACFA8D7F" adlcp:scormType="asset" type="webcontent" href="common/russian_7/module_3/dialog_play.htm">
+      <file href="common/russian_7/module_3/dialog_play.htm" />
+    </resource>
+    <resource identifier="RES-59D57F8B3745365F3AF2D5063EA2FD7C" adlcp:scormType="asset" type="webcontent" href="common/russian_7/module_3/test.htm">
+      <file href="common/russian_7/module_3/test.htm" />
+    </resource>
+    <resource identifier="RES-DEF592FFA62C33731F68FEF84C5CA132" adlcp:scormType="asset" type="webcontent" href="common/russian_7/module_4/grammar_rules.htm">
+      <file href="common/russian_7/module_4/grammar_rules.htm" />
+    </resource>
+    <resource identifier="RES-5A5BF494477BB52AA4586F94B5367010" adlcp:scormType="asset" type="webcontent" href="common/russian_7/module_4/grammar_ex_1.html">
+      <file href="common/russian_7/module_4/grammar_ex_1.html" />
+    </resource>
+    <resource identifier="RES-AEF670ADDA05A5BBFC9F022B9C440073" adlcp:scormType="asset" type="webcontent" href="common/russian_7/module_4/vocabulary_new_words1.htm">
+      <file href="common/russian_7/module_4/vocabulary_new_words1.htm" />
+    </resource>
+    <resource identifier="RES-CCB3ABA15B07CCB256F59ECEE43F789C" adlcp:scormType="asset" type="webcontent" href="common/russian_7/module_4/vocabulary_exercises_1.htm">
+      <file href="common/russian_7/module_4/vocabulary_exercises_1.htm" />
+    </resource>
+    <resource identifier="RES-BDD467F4BF6F48A00E1CCF6702E7A07D" adlcp:scormType="asset" type="webcontent" href="common/russian_7/module_4/texts_read.htm">
+      <file href="common/russian_7/module_4/texts_read.htm" />
+    </resource>
+    <resource identifier="RES-79E81E2DE5B42DC60C4E7D1FB145DB36" adlcp:scormType="asset" type="webcontent" href="common/russian_7/module_4/texts_listen.htm">
+      <file href="common/russian_7/module_4/texts_listen.htm" />
+    </resource>
+    <resource identifier="RES-7D4A1950AFAC50BC888E0DD753E97361" adlcp:scormType="asset" type="webcontent" href="common/russian_7/module_4/dialog_play.htm">
+      <file href="common/russian_7/module_4/dialog_play.htm" />
+    </resource>
+    <resource identifier="RES-086C56290954BB81669975E5B2B51365" adlcp:scormType="asset" type="webcontent" href="common/russian_7/module_4/test.htm">
+      <file href="common/russian_7/module_4/test.htm" />
+    </resource>
+    <resource identifier="RES-584F7D325316C5DC36ED34E52C35971B" adlcp:scormType="asset" type="webcontent" href="common/russian_7/module_5/grammar_rules.htm">
+      <file href="common/russian_7/module_5/grammar_rules.htm" />
+    </resource>
+    <resource identifier="RES-CF165804AE45B52256CD65E345F2A9AC" adlcp:scormType="asset" type="webcontent" href="common/russian_7/module_5/grammar_ex_1.html">
+      <file href="common/russian_7/module_5/grammar_ex_1.html" />
+    </resource>
+    <resource identifier="RES-EE48304D4ECAEA8E9FE5D1F66A52F016" adlcp:scormType="asset" type="webcontent" href="common/russian_7/module_5/vocabulary_new_words1.htm">
+      <file href="common/russian_7/module_5/vocabulary_new_words1.htm" />
+    </resource>
+    <resource identifier="RES-BA4F4850BF00FA4D17E6C8971FBBAB16" adlcp:scormType="asset" type="webcontent" href="common/russian_7/module_5/vocabulary_exercises_1.htm">
+      <file href="common/russian_7/module_5/vocabulary_exercises_1.htm" />
+    </resource>
+    <resource identifier="RES-3D2AB8D6A7F29D4ABB63CE47368B1CF8" adlcp:scormType="asset" type="webcontent" href="common/russian_7/module_5/texts_read.htm">
+      <file href="common/russian_7/module_5/texts_read.htm" />
+    </resource>
+    <resource identifier="RES-8C38C994F0138733D034F35FB8049887" adlcp:scormType="asset" type="webcontent" href="common/russian_7/module_5/texts_listen.htm">
+      <file href="common/russian_7/module_5/texts_listen.htm" />
+    </resource>
+    <resource identifier="RES-E950928B29A4FA0711A3AEAC72177EA2" adlcp:scormType="asset" type="webcontent" href="common/russian_7/module_5/dialog_play.htm">
+      <file href="common/russian_7/module_5/dialog_play.htm" />
+    </resource>
+    <resource identifier="RES-855B2E34649456E3B6D4AC55CA0A0AC3" adlcp:scormType="asset" type="webcontent" href="common/russian_7/module_5/test.htm">
+      <file href="common/russian_7/module_5/test.htm" />
+    </resource>
+    <resource identifier="RES-C601385B7C1E7481F64ACCE964F14DE7" adlcp:scormType="asset" type="webcontent" href="common/russian_7/module_6/grammar_rules.htm">
+      <file href="common/russian_7/module_6/grammar_rules.htm" />
+    </resource>
+    <resource identifier="RES-D15F30570A39E14DE35D28C34DD0E748" adlcp:scormType="asset" type="webcontent" href="common/russian_7/module_6/grammar_ex_1.html">
+      <file href="common/russian_7/module_6/grammar_ex_1.html" />
+    </resource>
+    <resource identifier="RES-56351EB19374896B1DA95ACC4EB02BC3" adlcp:scormType="asset" type="webcontent" href="common/russian_7/module_6/vocabulary_new_words1.htm">
+      <file href="common/russian_7/module_6/vocabulary_new_words1.htm" />
+    </resource>
+    <resource identifier="RES-9BAE4E551FD77E0FB5607C092CBCC97A" adlcp:scormType="asset" type="webcontent" href="common/russian_7/module_6/vocabulary_exercises_1.htm">
+      <file href="common/russian_7/module_6/vocabulary_exercises_1.htm" />
+    </resource>
+    <resource identifier="RES-9D72951E9719E50A775A3D8CE3BD67EE" adlcp:scormType="asset" type="webcontent" href="common/russian_7/module_6/texts_read.htm">
+      <file href="common/russian_7/module_6/texts_read.htm" />
+    </resource>
+    <resource identifier="RES-2337DEA0575BBF7EDEBE2D7DEF7272D2" adlcp:scormType="asset" type="webcontent" href="common/russian_7/module_6/texts_listen.htm">
+      <file href="common/russian_7/module_6/texts_listen.htm" />
+    </resource>
+    <resource identifier="RES-2F74FE71DBB44AAA2ED3046B737BB4D3" adlcp:scormType="asset" type="webcontent" href="common/russian_7/module_6/dialog_play.htm">
+      <file href="common/russian_7/module_6/dialog_play.htm" />
+    </resource>
+    <resource identifier="RES-92831BF1BBC25D344B4435D9D51500A1" adlcp:scormType="asset" type="webcontent" href="common/russian_7/module_6/test.htm">
+      <file href="common/russian_7/module_6/test.htm" />
+    </resource>
+    <resource identifier="RES-A7C72BB0C9F95A8F68936C4461CDE742" adlcp:scormType="asset" type="webcontent" href="common/russian_7/module_7/grammar_rules.htm">
+      <file href="common/russian_7/module_7/grammar_rules.htm" />
+    </resource>
+    <resource identifier="RES-9F77C7482B86B1D87A11681EFFE61ECF" adlcp:scormType="asset" type="webcontent" href="common/russian_7/module_7/grammar_ex_1.html">
+      <file href="common/russian_7/module_7/grammar_ex_1.html" />
+    </resource>
+    <resource identifier="RES-4164DA93955840755A9248B613944DCD" adlcp:scormType="asset" type="webcontent" href="common/russian_7/module_7/vocabulary_new_words1.htm">
+      <file href="common/russian_7/module_7/vocabulary_new_words1.htm" />
+    </resource>
+    <resource identifier="RES-BE7F53257918EDCFF1B351A5B8E2B507" adlcp:scormType="asset" type="webcontent" href="common/russian_7/module_7/vocabulary_exercises_1.htm">
+      <file href="common/russian_7/module_7/vocabulary_exercises_1.htm" />
+    </resource>
+    <resource identifier="RES-3714EC996640EBE463848859ADB6A100" adlcp:scormType="asset" type="webcontent" href="common/russian_7/module_7/texts_read.htm">
+      <file href="common/russian_7/module_7/texts_read.htm" />
+    </resource>
+    <resource identifier="RES-0944AD1E0ADCA363EEC987DC6E9E5CE3" adlcp:scormType="asset" type="webcontent" href="common/russian_7/module_7/texts_listen.htm">
+      <file href="common/russian_7/module_7/texts_listen.htm" />
+    </resource>
+    <resource identifier="RES-8EB00192693E373A7557AA34D4323A75" adlcp:scormType="asset" type="webcontent" href="common/russian_7/module_7/dialog_play.htm">
+      <file href="common/russian_7/module_7/dialog_play.htm" />
+    </resource>
+    <resource identifier="RES-70F70AE4B3194EEF2E20F7AFAD828454" adlcp:scormType="asset" type="webcontent" href="common/russian_7/module_7/test.htm">
+      <file href="common/russian_7/module_7/test.htm" />
+    </resource>
+    <resource identifier="RES-5434DA32B9DADEFC72D66F28BD7EC819" adlcp:scormType="asset" type="webcontent" href="common/russian_7/module_8/grammar_rules.htm">
+      <file href="common/russian_7/module_8/grammar_rules.htm" />
+    </resource>
+    <resource identifier="RES-13915EB6CFC46E8C25844D4F32FBF2D4" adlcp:scormType="asset" type="webcontent" href="common/russian_7/module_8/grammar_ex_1.html">
+      <file href="common/russian_7/module_8/grammar_ex_1.html" />
+    </resource>
+    <resource identifier="RES-85D092B2C7F67A0F93AF485C89BA7EDE" adlcp:scormType="asset" type="webcontent" href="common/russian_7/module_8/vocabulary_new_words1.htm">
+      <file href="common/russian_7/module_8/vocabulary_new_words1.htm" />
+    </resource>
+    <resource identifier="RES-9889EB5F8FEC6929DC75C23AECA1D817" adlcp:scormType="asset" type="webcontent" href="common/russian_7/module_8/vocabulary_exercises_1.htm">
+      <file href="common/russian_7/module_8/vocabulary_exercises_1.htm" />
+    </resource>
+    <resource identifier="RES-F9818D9F5C352C22009DA719FE5DC1B8" adlcp:scormType="asset" type="webcontent" href="common/russian_7/module_8/texts_read.htm">
+      <file href="common/russian_7/module_8/texts_read.htm" />
+    </resource>
+    <resource identifier="RES-14DB2FC17203B3E1A63789DA22B0AF80" adlcp:scormType="asset" type="webcontent" href="common/russian_7/module_8/texts_listen.htm">
+      <file href="common/russian_7/module_8/texts_listen.htm" />
+    </resource>
+    <resource identifier="RES-E9908545ACDD4EBF39CE6185B018E9DC" adlcp:scormType="asset" type="webcontent" href="common/russian_7/module_8/dialog_play.htm">
+      <file href="common/russian_7/module_8/dialog_play.htm" />
+    </resource>
+    <resource identifier="RES-3C1C7F4A849C3E159EE1F3845649079E" adlcp:scormType="asset" type="webcontent" href="common/russian_7/module_8/test.htm">
+      <file href="common/russian_7/module_8/test.htm" />
+    </resource>
+  </resources>
+</manifest>
+

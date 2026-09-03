@@ -1,0 +1,129 @@
+
+<html>
+<head>        <META HTTP-Equiv="Cache-Control" Content="no-cache">
+        <META HTTP-Equiv="Pragma" Content="no-cache">
+        <META HTTP-Equiv="Expires" Content="Tue, 01 Jan 1980 1:00:00 GMT">
+        <META http-equiv=Content-Type content="text/html; charset=utf-8">
+  <title>Русский язык. 6 класс. Модуль 5: «В мире книг». Новые слова</title>
+
+<link href="../style.css" rel="stylesheet" type="text/css">
+  
+  <script type="text/javascript" src="../lib/prototype.js"></script>
+  <script type="text/javascript" src="../src/effects.js"></script>
+  <script type="text/javascript" src="../src/dragdrop.js"></script>
+  <script type="text/javascript">
+
+  var myStartEffect = function(element) {   
+  element._opacity = Element.getOpacity(element);
+  new Effect.Opacity(element, {duration:0.2, from:element._opacity, to:0.7});
+  new Effect.Highlight(element, {});
+}
+  </script>
+
+<script language="JavaScript" type="text/javascript">
+function Results(){
+
+	var list_w=document.getElementsByTagName("li")
+
+	if ((list_w[10].id=="w2") && (list_w[11].id=="w1") && (list_w[12].id=="w3") && (list_w[13].id=="w5") && (list_w[14].id=="w4") && (list_w[15].id=="w6") && (list_w[16].id=="w8") && (list_w[17].id=="w7") && (list_w[18].id=="w10")  && (list_w[19].id=="w9") ){
+   		document.Excercise.task.src="../images/exercise_true.png"} 
+	else {
+		document.Excercise.task.src="../images/exercise_false.png"} 
+}
+</script>
+
+</head>
+
+
+<body class="text">
+
+<form name="Excercise">
+
+<table>
+  <tbody>
+    <tr>
+      <td>
+      <img style="width: 128px; height: 128px;" alt="Упражнение 1" src="../images/exercise.png" id="task"></td>
+
+      <td>
+        <h2>Задание 1. Подберите правильный перевод к каждому слову</h2>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+<table class="text">
+  <tbody>
+    <tr>
+      <td width=200>
+        <ul>
+  <li class="green">информация</li>
+  <li class="green">повторение</li>
+  <li class="green">перевод</li>
+  <li class="green">перенос</li>
+  <li class="green">поэтический</li>
+  <li class="green">серьезный</li>
+  <li class="green">приказать</li>
+  <li class="green">излагать</li>
+  <li class="green">навсегда</li>
+  <li class="green">несколько</li>
+
+        </ul>
+
+        </td>
+        <td width=200>
+        <ul id="words">
+  <li class="blue" id="w1">қайталау</li>
+  <li class="blue" id="w2">ақпарат</li>
+  <li class="blue" id="w3">аударма</li>
+  <li class="blue" id="w4">ақындық</li>
+  <li class="blue" id="w5">тасымал</li>
+  <li class="blue" id="w6">салмақты</li>
+  <li class="blue" id="w7">баяндау</li>
+  <li class="blue" id="w8">бұйыру</li>
+  <li class="blue" id="w9">бірнеше</li>
+  <li class="blue" id="w10">мәңгі-бақи</li>
+
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+  <script type="text/javascript">  
+  Sortable.create('words', {starteffect: myStartEffect}); 
+  </script>
+
+  
+<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
+
+  <tbody>
+
+    <tr>
+
+      <td style="width: 128px;"><img style="width: 128px; height: 128px;" alt="Проверить ответ" src="../images/result.png" onclick="Results()"></td>
+
+      <td></td>
+
+      <td></td>
+
+      <td style="width: 128px;"><img style="width: 128px; height: 128px;" alt="Предыдущий вопрос" src="../images/prev_question.png"></td>
+
+      <td style="width: 128px;"><a href="vocabulary_exercises_2.htm"><img style="border: 0px solid ; width: 128px; height: 128px;" alt="Следующий вопрос" src="../images/next_question.png"></a></td>
+
+    </tr>
+
+  
+  </tbody>
+</table>
+
+
+
+  </form>
+
+</body>
+</html>
+
+

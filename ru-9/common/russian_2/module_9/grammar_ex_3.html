@@ -1,0 +1,110 @@
+
+<html>
+<head>        <META HTTP-Equiv="Cache-Control" Content="no-cache">
+        <META HTTP-Equiv="Pragma" Content="no-cache">
+        <META HTTP-Equiv="Expires" Content="Tue, 01 Jan 1980 1:00:00 GMT">
+        <META http-equiv=Content-Type content="text/html; charset=utf-8">
+  <title>Русский язык. 9 класс. Модуль 9: "История кино".  Упражнения по грамматике </title>
+
+
+  <link href="../style.css" rel="stylesheet" type="text/css">
+<link href="../style.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript" src="../lib/prototype.js"></script>
+<script type="text/javascript" src="../src/effects.js"></script>
+<script type="text/javascript" src="../src/dragdrop.js"></script>
+
+<script type="text/javascript">
+
+var myStartEffect = function(element) {   
+element._opacity = Element.getOpacity(element);
+new Effect.Opacity(element, {duration:0.2, from:element._opacity, to:0.7});
+new Effect.Highlight(element, {});
+}
+</script>
+
+<script language="JavaScript" type="text/javascript">
+
+function Results(){
+
+	var list_w=document.getElementsByTagName("li")
+
+	if (((list_w[8].id=="w4") && (list_w[9].id=="w6") && (list_w[10].id=="w1") && (list_w[11].id=="w2") && (list_w[12].id=="w7") && (list_w[13].id=="w3") && (list_w[14].id=="w8") && (list_w[15].id=="w5") && (document.Excercise.text1.value==",") && ((document.Excercise.text2.value=="-")||(document.Excercise.text2.value==" -")) && ((document.Excercise.text3.value=="-")||(document.Excercise.text3.value==" -")) && (document.Excercise.text4.value==":") && (document.Excercise.text5.value==",") && (document.Excercise.text6.value==",") && (document.Excercise.text7.value==",") && (document.Excercise.text8.value==",")) ){document.Excercise.task.src="../images/exercise_true.png"} 
+	else {
+		document.Excercise.task.src="../images/exercise_false.png"} 
+}
+</script>
+</head>
+
+<body class="text">
+
+<form name="Excercise">
+<table>
+  <tbody>
+    <tr>
+      <td>
+      <img style="width: 128px; height: 128px;" alt="Задание 3" src="../images/exercise.png" id="task"></td>
+
+      <td>
+      <h2>Задание 3. К данным предложениям подберите подходящую по смыслу вторую часть, расставьте знаки препинания</h2>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table >
+  <tbody>
+    <tr>
+      <td width=380>
+<ul>
+<li class="green">Когда я писал мне хотелось хоть в какой-то мере объяснить другим то<input name="text1" class="textbox" size="1" value="">
+<li class="green">Давно ли пылила вьюга<input name="text2" class="textbox" size="1" value="">
+<li class="green">Сказала что-то я<input name="text3" class="textbox" size="1" value="">
+<li class="green">Вот смотрю<input name="text4" class="textbox" size="1" value="">
+<li class="green">Обе стрелки будильника сошлись на цифре 10<input name="text5" class="textbox" size="1" value=""> 
+<li class="green">Если люди сумели пронести дружбу через всю жизнь это значит<input name="text6" class="textbox" size="1" value="">
+<li class="green">Валя не глядела на номера домов<input name="text7" class="textbox" size="1" value="">
+<li class="green">Совесть нам не позволит<input name="text8" class="textbox" size="1" value="">
+</ul>
+      </td>
+
+      <td width=380>
+<ul id="sort_1">
+<li class="blue" id="w1">он начал хохотать.
+<li class="blue" id="w2">из леса выезжает кто-то на серой лошади.
+<li class="blue" id="w3">что она выдержала все проверки и испытания.
+<li class="blue" id="w4">что было тогда на душе у меня самого.
+<li class="blue" id="w5">чтобы слово и дело шли по разным дорогам.
+<li class="blue" id="w6">вновь яблони в цвету.
+<li class="blue" id="w7">так что казались одной толстой стрелкой.
+<li class="blue" id="w8">потому что дорога была ей хорошо известна.
+</ul>
+      </td>
+   </tr>
+  </tbody>
+</table>
+
+<script type="text/javascript">  
+  Sortable.create('sort_1', {starteffect: myStartEffect}); 
+</script>
+
+
+  <table style="width: 100%;">
+    <tbody>
+      <tr>
+	<td style="width: 128px;">
+	  <img style="width: 128px; height: 128px;" alt="Результат" src="../images/result.png"onclick="Results()">
+	</td>
+	<td>
+	</td>
+        <td style="width: 128px;"><a href="grammar_ex_2.html"><img style="width: 128px; height: 128px; border: 0px solid;" alt="Переход на предыдущую страницу" src="../images/prev_question.png"></a></td>
+        <td style="width: 128px;"><a href="grammar_ex_4.html"><img style="width: 128px; height: 128px; border: 0px solid;" alt="Переход на следующую страницу" src="../images/next_question.png"></a>
+	</td>
+      </tr>
+    </tbody>
+  </table>
+
+</form>
+
+</body>
+</html>

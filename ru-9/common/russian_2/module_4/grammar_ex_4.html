@@ -1,0 +1,108 @@
+
+<html>
+<head>        <META HTTP-Equiv="Cache-Control" Content="no-cache">
+        <META HTTP-Equiv="Pragma" Content="no-cache">
+        <META HTTP-Equiv="Expires" Content="Tue, 01 Jan 1980 1:00:00 GMT">
+        <META http-equiv=Content-Type content="text/html; charset=utf-8">
+  <title>Русский язык. 9 класс. Модуль 4: "Человек и искусство". Упражнения по грамматике</title>
+
+
+  <link href="../style.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript" src="../lib/prototype.js"></script>
+<script type="text/javascript" src="../src/effects.js"></script>
+<script type="text/javascript" src="../src/dragdrop.js"></script>
+
+<script type="text/javascript">
+
+var myStartEffect = function(element) {   
+element._opacity = Element.getOpacity(element);
+new Effect.Opacity(element, {duration:0.2, from:element._opacity, to:0.7});
+new Effect.Highlight(element, {});
+}
+</script>
+
+<script language="JavaScript" type="text/javascript">
+
+function Results(){
+
+	var list_w=document.getElementsByTagName("li")
+
+	if (((list_w[6].id=="w2") && (list_w[7].id=="w3") && (list_w[8].id=="w5") && (list_w[9].id=="w1") && (list_w[10].id=="w6") && (list_w[11].id=="w4"))||((list_w[6].id=="w4") && (list_w[7].id=="w3") && (list_w[8].id=="w5") && (list_w[9].id=="w1") && (list_w[10].id=="w6") && (list_w[11].id=="w2"))) {document.Exercise.task.src="../images/exercise_true.png"} 
+	else {
+		document.Exercise.task.src="../images/exercise_false.png"} 
+}
+</script>
+
+</head>
+
+<body class="text">
+
+<form name="Exercise">
+<table>
+  <tbody>
+    <tr>
+      <td>
+      <img style="width: 128px; height: 128px;" alt="Задание 4" src="../images/exercise.png" id="task"></td>
+
+      <td>
+      <h2>Задание 4. Поставьте вопросы к придаточным частям в следующих предложениях</h2>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table >
+  <tbody>
+    <tr>
+      <td >
+<ul>
+<li class="green">Мне нравятся люди, с которыми легко общаться. 
+<li class="green">Я спросил, идет ли он со мной. 
+<li class="green">Маша прошла несколько шагов до того места, где тропа огибала высохший осокорь, и остановилась. 
+<li class="green">Я надеюсь, что еще вернусь сюда. 
+<li class="green">Я не понимаю, почему ты молчишь.
+
+<li class="green">Я с благодарностью вспоминаю годы, что провел в этом городе.
+</ul>
+      </td>
+
+      <td >
+<ul id="sort_1">
+<li class="blue" id="w1">на что?
+<li class="blue" id="w2">какие?
+<li class="blue" id="w3">о чем?
+<li class="blue" id="w4">какие?
+<li class="blue" id="w5">какого?
+<li class="blue" id="w6">чего?
+
+</ul>
+      </td>
+   </tr>
+  </tbody>
+</table>
+
+<script type="text/javascript">  
+  Sortable.create('sort_1', {starteffect: myStartEffect}); 
+</script>
+
+
+  <table style="width: 100%;">
+    <tbody>
+      <tr>
+	<td style="width: 128px;">
+	  <img style="width: 128px; height: 128px;" alt="Результат" src="../images/result.png"onclick="Results()">
+	</td>
+	<td>
+	</td>
+        <td style="width: 128px;"><a href="grammar_ex_3.html"><img style="width: 128px; height: 128px; border: 0px solid;" alt="Переход на предыдущую страницу" src="../images/prev_question.png"></a></td>
+        <td style="width: 128px;"><a href="grammar_ex_5.html"><img style="width: 128px; height: 128px; border: 0px solid;" alt="Переход на следующую страницу" src="../images/next_question.png"></a>
+	</td>
+      </tr>
+    </tbody>
+  </table>
+
+</form>
+
+</body>
+</html>
